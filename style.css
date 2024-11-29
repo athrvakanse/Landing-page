@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar, .hero-sec, .footer-sec{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #415a77;
+}
+.logo, .nav-link-items{
+    padding: 1.5em;
+}
+.logo {
+    display: flex;
+    flex: 1 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link-items {
+    display: flex;
+    flex: 1 0 0;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.nav-link-items li:hover {
+    cursor: pointer;
+    color: #3882F6;
+}
+
+.hero-sec {
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-txt {
+    width: 28em;
+    padding: 5rem 2rem 5rem 0;
+    box-sizing: border-box;
+}
+
+.hero-txt h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-txt p {
+    text-align: justify;
+    padding: 12px 0 12px 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-txt button {
+    padding: 8px 24px 8px 24px;
+    background-color: #3882F6;
+    border: lightblue;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.hero-img {
+    width: fit-content;
+    padding: 5rem 0 5rem 0;
+}
+
+.rand-info-sec {
+    padding: 2rem;
+    text-align: center;
+}
+
+.rand-info-sec h1 {
+    text-align: center;
+    padding: 12px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 18rem;
+    height: 24rem;
+    padding: 18px;
+    text-align: center;
+}
+
+.card-img {
+    border: 2px solid gray;
+    border-radius: 12px;
+    width: 254px;
+    height: 253px;
+}
+
+.card-img img {
+    border-radius: 12px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-top: 12px;
+    color: black;
+}
+
+.quote-sec {
+    background: #E5E7EB;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 50rem;
+    font-size: 24px;
+    height: 10rem;
+    text-align: justify;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.quote span {
+    display: block;
+    text-align: end;
+    color: black;
+    font-weight: bold;
+}
+
+.final-sec {
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-desc-btn {
+    background-color: #3882F6;
+    width: 60rem;
+    height: 10rem;
+    display: flex;
+    padding: 0 8em 0 8em;
+    border: 2px solid;
+    align-items: center;
+    border-radius: 12px;
+}
+    
+.sec-desc {
+    flex: 3 1 0;
+}
+
+.sec-desc h4 {
+    font-size: 18px;
+}
+
+.sec-desc p {
+    font-size: 14px;
+}
+
+.sec-btn {
+    flex: 1 0 0;
+    text-align: end;
+}
+
+.sec-btn .btn-signup {
+    background: transparent;
+    border: 2px solid white;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 8em;
+}
+
+.footer-sec {
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+    font-size: 14px;
+}   
